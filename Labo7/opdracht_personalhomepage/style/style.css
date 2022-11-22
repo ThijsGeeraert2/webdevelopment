@@ -5,7 +5,7 @@ body{
     width: 690px;
     margin: 5px auto;
     padding: 10px;
-    background-color: lightgrey;
+    background-color: lightblue;
 }
 
 .datagrid table {
@@ -95,7 +95,7 @@ body{
     border-color: #00557F;
     color: #FFFFFF;
     background: none;
-    background-color:#006699;
+    background-color:#009966;
 }
 .onbekend{
     background: red;
