@@ -20,10 +20,10 @@ body{
 }
 
 @keyframes vliegen {
-    0% {bottom : 0px;}
-    25% {bottom : 50px;}
-    50% {bottom: 100px;}
-    100% {bottom : 150px}
+    0% {bottom : 0px;transform: rotate(10deg);}
+    25% {bottom : 50px;transform: rotate(0deg);}
+    50% {bottom: 100px;transform: rotate(15deg);}
+    100% {bottom : 150px;transform: rotate(0deg);}
 }
 
 .upper-Title{
