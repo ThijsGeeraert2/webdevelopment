@@ -1,0 +1,91 @@
+body{
+    width: 960px;
+    margin: auto;
+}
+
+.top{
+    height: 200px;
+    text-align: center;
+    color: darkblue;
+    background: url(fotos/bgsky3.jpg);
+}
+
+.fotoPlane{
+    float: right;
+    position: relative;
+    bottom: 150px;
+    z-index: 0;
+}
+
+.upper-Title{
+    z-index: 5;
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.lower-Title{
+    z-index: 5;
+    font-size: 240%;
+    font-weight: bold;
+}
+
+.news{
+    width: 250px;
+    background-color: #dddddd;
+    border: solid #999999 1px;
+    float: right;
+    right: 280px;
+    position: absolute;
+}
+
+.news h3{
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    background-color: blue;
+}
+
+.news p{
+    color: #666666;
+    margin: 0 10px;
+    font-size: 90%;
+}
+
+.mainblock{
+    width: 700px;
+
+}
+
+.introduction{
+    background: white;
+    color: black;
+    text-align: justify;
+}
+
+.introduction p{
+    padding: 20px 30px;
+}
+
+.blueText{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.galery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+    background-color: #999999;
+}
+
+.galery .foto{
+    height: 180px;
+    width: 180px;
+    background: white;
+    margin: 10px;
+    border-color: white;
+    border-style: dotted;
+    padding: 10px;
+}
