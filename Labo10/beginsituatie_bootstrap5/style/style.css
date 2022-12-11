@@ -1,0 +1,49 @@
+#a{
+    border: solid black;
+    border-width: 0 7.5px 15px 0;
+    min-height: 165px;
+    background-color: rgb(255,255,255);
+}
+
+#b{
+    border: solid black;
+    border-width: 15px 7.5px 7.5px 0;
+    min-height: 190px;
+    background-color: rgb(255,255,255);
+}
+
+#c{
+    border: solid black;
+    border-width: 0 0px 7.5px 7.5px;
+    min-height: 355px;
+    background-color: rgb(220,40,26);
+}
+
+#d{
+    border: solid black;
+    border-width: 7.5px 7.5px 0px 0px;
+    min-height: 150px;
+    background-color: rgb(0,93,159);
+}
+
+#e{
+    border: solid black;
+    border-width: 7.5px 7.5px 0px 7.5px;
+    min-height: 150px;
+    background-color: rgb(255,255,255);
+}
+
+#f{
+    border: solid black;
+    border-width: 7.5px 0 12.5px 7.5px;
+    min-height: 75px;
+    background: rgb(255,255,255);
+}
+
+#g{
+    border: solid black;
+    border-width: 12.5px 0 0 7.5px;
+    min-height: 75px;
+    background-color: rgb(242,224,122);
+}
+
