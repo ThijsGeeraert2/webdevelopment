@@ -1,0 +1,157 @@
+/** Volgende CSS gaan we ze geven **/
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Helvetica;
+
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+}
+
+h2{
+
+}
+
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header{
+    width: 980px;
+}
+header .line{
+    border-top: 2px solid #ebe8e8;
+    width: 100%;
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 980px;
+
+
+}
+
+nav ul li{
+    list-style: none;
+    border-right: 1px solid #ebe8e8;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #5b4746;
+    font-size: 13px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #fff100;
+}
+
+main{
+    border-top: 1px solid #ebe8e8;
+}
+
+.navHeader{
+    background: url("./headerimage.jpg");
+    background-size: cover;
+    height: 500px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.navHeader p {
+    text-shadow: 2px 2px #8d99ae;
+}
+
+article{
+
+    width: 980px;
+    margin: 50px auto 0 auto;
+}
+
+article h3{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #ff4d56;
+    text-space: 1px;
+}
+
+.artikel h2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.artikel time{
+    padding-right: 10px;
+    color: #666;
+}
+
+.artikel span{
+    border-left: 1px solid #ebe8e8;
+    padding-right: 10px;
+    color: #666;
+    font-style: italic;
+}
+.artikel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pictureContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.recommended{
+    width: 980px;
+    margin: 50px auto 0 auto;
+}
+
+#left{
+
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+#left p{
+    float: right;
+}
+
+#right{
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+footer{
+    width: 100%;
+    border-top: 1px solid #ebe8e8;
+    line-height: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
